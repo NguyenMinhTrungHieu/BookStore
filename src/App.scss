@@ -1,0 +1,13 @@
+@import '~/styles/global.scss';
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; // Đảm bảo container có chiều cao tối thiểu bằng chiều cao của viewport
+}
+
+.main-content {
+  flex: 1; // Phần này sẽ chiếm không gian còn lại
+  padding: 0 5rem;
+  margin-top: $Nav-height;
+}
